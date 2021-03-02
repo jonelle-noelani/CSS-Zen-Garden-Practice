@@ -117,7 +117,8 @@ footer {
 	text-align: center; 
 	}
 footer a:link, footer a:visited { 
-	margin-right: 20px; 
+	margin-right: 50px; 
+	font-size: large;
 	}
 
 .sidebar {
