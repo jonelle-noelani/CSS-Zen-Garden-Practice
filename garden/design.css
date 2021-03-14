@@ -60,7 +60,8 @@ abbr {
 
 .intro { 
 	display:flex;
-	justify-content: center;
+	/* justify-content: center; */
+	align-items: center;
 	min-width: 470px;
 	width: 100%;
 	text-align: center;
