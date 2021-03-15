@@ -59,9 +59,9 @@ abbr {
 	}
 
 .intro { 
-	display:flex;
-	/* justify-content: center; */
-	align-items: center;
+	/* display:flex;
+	justify-content: center;
+	align-items: center; */
 	min-width: 470px;
 	width: 100%;
 	text-align: center;
@@ -121,21 +121,21 @@ header {
 	text-align: center;
 	}
 
-.preamble {
+.preamble, .participation, .requirements {
 	/* clear: right;  */
 	margin: 50px 300px 50px 0px;
 	padding: 0px 10px 0 10px;
 	}
 
-.supporting {	
-	padding-left: 10px; 
-	margin-bottom: 40px;
-	}
-
-.explanation {
+.explanation, .benefits {
 	margin-left: 300px;
 	padding: 0px 10px 0 10px;
 }
+
+/* .supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	} */
 
 footer { 
 	text-align: center; 
@@ -145,6 +145,7 @@ footer a:link, footer a:visited {
 	font-size: large;
 	}
 
+/***SIDEBAR***/
 .sidebar {
 	/* margin-left: 600px;  */
 	/* position: absolute;  */
@@ -189,7 +190,6 @@ footer a:link, footer a:visited {
 	white-space: nowrap;
 	overflow: hidden;
 	}
-
 
 .sidebar ul {
 	margin: 0;
